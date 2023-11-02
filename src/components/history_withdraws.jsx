@@ -20,13 +20,13 @@ const History_withdraws = () => {
   };
   return (
     <Box>
-      <Grid sx={{ mb: 2, mt: 4 }}>
-        <Typography sx={{ textAlign: "left", fontSize: "18px" }}>
+      <Grid sx={{ mb: 2, mt: 2 }}>
+        <Typography sx={{ textAlign: "left", fontSize: "24px" }}>
           Withdraw History
         </Typography>
       </Grid>
-      <Grid container spacing={20}>
-        <Grid item xs={3}>
+      <Grid container >
+        <Grid  xs={3}>
           <FormControl>
             <InputLabel>Status</InputLabel>
             <Select
@@ -41,12 +41,12 @@ const History_withdraws = () => {
             </Select>
           </FormControl>
         </Grid>
-        <Grid item xs={3}>
+        <Grid  xs={3}>
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DatePicker label="Start" sx={{ width: "300px" }} />
           </LocalizationProvider>
         </Grid>
-        <Grid item xs={3}>
+        <Grid  xs={3}>
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DatePicker label="End" sx={{ width: "300px" }} />
           </LocalizationProvider>

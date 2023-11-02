@@ -19,7 +19,7 @@ export default function Sidebar() {
     <Box sx={{ display: "flex" }}>
       <Drawer
         sx={{
-          width: 100,
+          width: drawerWidth,
           flexShrink: 0,
           "& .MuiDrawer-paper": {
             width: drawerWidth,

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { DataGrid } from "@mui/x-data-grid";
 const columns = [
   { field: "time", headerName: "Time", width: 180 },
-  { field: "client", headerName: "Client Transaction Id / System Transaction Id", width: 230 },
-  { field: "bank", headerName: "Bank", width: 150 },
+  { field: "client", headerName: "Client Transaction Id / System Transaction Id", width: 300 },
+  { field: "bank", headerName: "Bank", width: 200 },
   { field: "amount", headerName: "Amount" },
   { field: "amount_fee", headerName: "Amount With Fee", width: 150 },
   { field: "fee", headerName: "Fee" },

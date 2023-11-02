@@ -1,7 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  height: 100vh;
+  background-color: #eeeff1ff;
   padding: 2rem;
+ 
+}
+
+body {
+  margin: 0;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: rgb(234, 234, 234);
+
 }
 
 

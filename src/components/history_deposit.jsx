@@ -16,8 +16,8 @@ import {
   const History_deposit = () => {
     return (
       <Box>
-        <Grid sx={{ mb: 2, mt: 4 }}>
-          <Typography sx={{ textAlign: "left", fontSize: "18px" }}>
+        <Grid sx={{ mb: 2, mt: 2 }}>
+          <Typography sx={{ textAlign: "left", fontSize: "24px" }}>
             Deposits History
           </Typography>
         </Grid>

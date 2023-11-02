@@ -10,8 +10,8 @@ const CustomButton = styled(Button)`
   }
 `;
 const columns = [
-  { field: "time", headerName: "Time", width: 180,  headerClassName: "custom-column-header", },
-  { field: "merchant", headerName: "Merchant TX Id", width: 180 },
+  { field: "time", headerName: "Time", width: 180,   },
+  { field: "merchant", headerName: "Merchant TX Id", width: 180, },
   { field: "tx_id", headerName: "System TX Id", width: 180 },
   { field: "amount", headerName: "Amount" },
   { field: "amount_fee", headerName: "Amount (+Fee)", width: 150 },
